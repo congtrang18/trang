@@ -1,0 +1,128 @@
+@media (max-width:1023px) {
+    
+    .item{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .center_item{
+       text-align: center;
+    }
+    .item_text p{
+        width: 100%;
+        text-align: center;
+    }
+    /* .product2{
+         display: grid;
+        grid-template-columns: repeat(3,1fr);
+        width: 1023px;
+        overflow: hidden;
+       
+    } */
+    .dolla{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    /* .start_img{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    } */
+    .banner2{
+        height: 900px;
+        max-width: 800px;
+     margin: 0 auto;
+    }
+    .banner2>img{
+         height: 900px;
+        max-width: 800px;
+    }
+    .promo2 img{
+        width: 500px;
+        height: 500px;
+    }
+    .promo_text{
+        line-height: 20px;
+    }
+    .responsive{
+        display: flex;
+        flex-direction: column-reverse;
+       top: 0%;
+       bottom: 0%;
+    }
+    .product2{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .product_new {
+        position: relative;
+    }
+    .product_new .fa-sharp {
+        position: absolute;
+        top: 2%;
+        left: 80%;
+    }
+    .start_img_top{
+       display: flex;
+       flex-direction: column;
+    }
+    .start_img_bt{
+        display: flex;
+       flex-direction: column;
+    }
+    .start_img{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .st_img{
+        margin: 20px 0px;
+    }
+    .start{
+        width: 1200px;
+    }
+    /* .the_news{
+        max-width: 1340px;
+        margin: 0 auto;
+    } */
+    .love{
+        display: flex;
+        flex-direction: column;
+       
+        
+    }
+    .footer{
+        display:grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .footer_colum1{
+        width: 500px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .colum1_text p{
+        display: inline-block;
+    }
+    .banner{
+        width: 1023px;
+        position: relative;
+        /* top: 62px; */
+    }
+    .banner #amd{
+        width: 1023px;
+    }
+    #img{
+        width: 500px;
+        height: 450px;
+        position: absolute;
+        top: -8%;
+        z-index: 1;
+       
+        /* left: 45%; */
+        /* height: 600px; */
+    }
+    
+    
+    
+}
